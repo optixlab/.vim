@@ -1,3 +1,4 @@
+ ```shell
  * sudo apt-get install console-data
  * sudo dpkg-reconfigure --priority=low xserver-xorg
  * sudo dpkg-reconfigure --priority=low console-data
@@ -13,12 +14,13 @@
 
  * Lost password: run `sudo raspi-config`
  * Lost root password: edit /etc/passwd, delete 'x' in root:x:...
- 
+```
+
  `shell
  sudo apt-get install vim
 
 --
-# Installing Kodi
+## Installing Kodi
 [Raspian](http://michael.gorven.za.net/)
 
 sudo vi /etc/apt/sources.list.d/mene.list
@@ -28,7 +30,7 @@ sudo usermod -a -G tty pi
 adding an existing user to a group; use 'id pi' to get groups. check /etc/groups for all groups
 
 --
-# Setting R in Ubuntu (may not work for me but useful for firewall)
+## Setting R in Ubuntu (may not work for me but useful for firewall)
 [Ubuntu R install]i://r-interface.blogspot.com/2012/04/install-r-jgr-and-deducer-in-ubuntu.html)
 
 - In .Rprofile or .Renviron:
@@ -38,27 +40,17 @@ adding an existing user to a group; use 'id pi' to get groups. check /etc/groups
 - Has additional info on Desktop icon + java + package with repo option
 
 --
-# Raspberry + R for GPIO temperature sensing
+## Raspberry + R for GPIO temperature sensing
 [Google Plus Blog](https://plus.google.com/+StephenBecker/posts/gSQB3M6cph7)
 
 --
-# OneDrive setup
-[github](https://github.com/xybu/onedrive-d)
-* Requires installation of pip for python3, apt-get install python3-pip, but cannot run it.
-* Github install & setup was OK 
-* Issues with starting it up
-	* PYTHONPATH=/home/pi/bin/onedrive-d onedrive-d 
-	* onedrive-pref is installed in /local/something... but needs path to od_pref
-
-
---
-# grip to convert markdown to html
+## grip to convert markdown to html
 [Github for Grip](
 [Raspberry for R](http://www.r-bloggers.com/fun-with-the-raspberry-pi/)
 [WiringPi](https://projects.drogon.net/raspberry-pi/wiringpi/)
 
 --
-# VIM
+## VIM
  !mkdir ~/.vim/colors
  !cp $VIMRUNTIME/colors/morning.vim ~/.vim/colors/mine.vim
 
@@ -125,7 +117,7 @@ For Dropbox nautilus source compile: $ sudo apt-get install libnautilus-extensio
 - `sudo shutdown -h 21:55`
 
 --
-# How to start X-windows export 
+## How to start X-windows export 
 [Ref](http://www.ece.unm.edu/csg/email/XServer_Putty_Windows7-ECE.pdf)
 
 - Putty, set Config > SSH > X11 > PortForwarding Yes
@@ -134,15 +126,15 @@ For Dropbox nautilus source compile: $ sudo apt-get install libnautilus-extensio
 - That is it!
 
 
-# IPython Server
+## IPython Server
 
 [Ref](https://arundurvasula.wordpress.com/2014/04/01/remote-ipython-notebook-with-raspberry-pi/)
 
-# Installed scikit-learn 
+## Installed scikit-learn 
 Based on linux instructions on the site.  Lots of apt-get install
 
 
-# Github .vim install
+## Github .vim install
 [Ref](http://gregwoods.co.uk/2014/01/syntax-highlighting-in-vim-on-a-remote-raspberrypi/)
 cd ~
 mv .vimrc .vim/.vimrc
