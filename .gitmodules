@@ -1,0 +1,21 @@
+[submodule "bundle/fugitive"]
+	path = bundle/fugitive
+	url = git://github.com/tpope/vim-fugitive.git
+[submodule "bundle/delmitmate"]
+	path = bundle/delmitmate
+	url = git://github.com/Raimondi/delimitMate.git
+[submodule "bundle/solarized"]
+	path = bundle/solarized
+	url = git://github.com/altercation/vim-colors-solarized.git
+[submodule "bundle/vim-airline-themes"]
+	path = bundle/vim-airline-themes
+	url = git://github.com/vim-airline/vim-airline-themes.git
+[submodule "bundle/Nvim-R"]
+	path = bundle/Nvim-R
+	url = git://github.com/jalvesaq/Nvim-R
+[submodule "vim-bracketed-paste"]
+	path = vim-bracketed-paste
+	url = https://github.com/ConradIrwin/vim-bracketed-paste
+[submodule "bundle/vim-bracketed-paste"]
+	path = bundle/vim-bracketed-paste
+	url = https://github.com/ConradIrwin/vim-bracketed-paste
